@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: aquamarine;
+}
+
+h1 {
+  font-size: 38px;
+}
+
+h2 {
+  font-size: 32px;
+  font-style: italic;
+}
+
+ul.ingredients-list {
+  list-style: square inside;
+}
+
+ol.directions {
+  padding-left: 10mm;
+}
+
+ul > li > a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ol li {
+  list-style: decimal;
+  margin-bottom: 5mm;
+}
+
+header > img {
+  width: 100px;
+}
+
+.user_review > h4 {
+  font-style: italic;
+  color: blue;
+}
+
+.user_review {
+  font-style: italic;
+  color: blue;
+}
+
+input {
+  background-color: red;
+  cursor: crosshair;
+  outline: none;
+}
+
+input.radio {
+  cursor: grab;
+}
